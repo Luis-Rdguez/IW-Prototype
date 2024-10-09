@@ -4,37 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chef Book</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
-
 <body>
     <header>
+        <img src="images/logo.png" alt="Logo" class="logo">
         <div class="wrapper">
-            <img src="images/logo.png" alt="Logo">
             <nav>
-                <a href="#">Inicio</a>
+                <a href="index.html">Inicio</a>
                 <a href="formulario.html">Agregar Receta</a>
+                <a href="recientes.html">Recetas Recientes</a>
                 <a href="faq.html">FAQ</a>
             </nav>
         </div>
     </header>
 
     <main>
-        <section>
-            <h2>Recetas Destacadas</h2>
-            <article>
-                <img src="img/receta1.jpg" alt="Receta 1">
-                <h3>Receta 1</h3>
-                <p>Una breve descripción de la receta.</p>
-                <a href="detalles.html">Ver detalles</a>
+        <h1>Recetas Destacadas</h1>
+        <div class="recetas-destacadas">
+            <article class="receta-destacada">
+                <h3>Tarta de Chocolate</h3>
+                <img src="images/tarta-chocolate.jpg" alt="Tarta de Chocolate" class="imagen-receta">
+                <p><strong>Tiempo de preparación:</strong> 60 minutos</p>
+                <p><strong>Categoría:</strong> Postre</p>
+                <h4>Ingredientes:</h4>
+                <ul>
+                    <li>200g de chocolate negro</li>
+                    <li>200g de mantequilla</li>
+                    <li>200g de azúcar</li>
+                    <li>4 huevos</li>
+                    <li>150g de harina</li>
+                    <li>1 cucharadita de levadura</li>
+                </ul>
+                <h4>Pasos de preparación:</h4>
+                <ol>
+                    <li>Precalentar el horno a 180°C.</li>
+                    <li>Derretir el chocolate y la mantequilla al baño maría.</li>
+                    <li>Batir los huevos con el azúcar hasta que la mezcla blanquee.</li>
+                    <li>Añadir la mezcla de chocolate derretido y mezclar bien.</li>
+                    <li>Incorporar la harina y la levadura tamizadas.</li>
+                    <li>Verter la mezcla en un molde y hornear durante 25-30 minutos.</li>
+                    <li>Dejar enfriar antes de desmoldar y servir.</li>
+                </ol>
             </article>
-            <article>
-                <img src="img/receta2.jpg" alt="Receta 2">
-                <h3>Receta 2</h3>
-                <p>Otra breve descripción de una receta.</p>
-                <a href="detalles.html">Ver detalles</a>
+            <article class="receta-destacada">
+                <h3>Lentejas con Chorizo y Patatas</h3>
+                <img src="images/lentejas-chorizo.jpg" alt="Lentejas con Chorizo y Patatas" class="imagen-receta">
+                <p><strong>Tiempo de preparación:</strong> 1 hora y 45 minutos</p>
+                <p><strong>Categoría:</strong> Plato principal</p>
+                <h4>Ingredientes:</h4>
+                <ul>
+                    <li>400 g de lentejas pardinas</li>
+                    <li>1 cebolla</li>
+                    <li>4 dientes de ajo</li>
+                    <li>2 zanahorias</li>
+                    <li>½ pimiento verde</li>
+                    <li>3 patatas</li>
+                    <li>2 chorizos</li>
+                    <li>1 cucharadita de pimentón dulce</li>
+                    <li>1 cucharadita de sal</li>
+                    <li>1 hoja de laurel</li>
+                    <li>2 litros de agua</li>
+                </ul>
+                <h4>Pasos de preparación:</h4>
+                <ol>
+                    <li>Ponemos las lentejas en una olla amplia.</li>
+                    <li>Añadimos la cebolla y los ajos picados.</li>
+                    <li>Agregamos la zanahoria, el pimiento verde, las patatas y los chorizos enteros.</li>
+                    <li>Condimentamos.</li>
+                    <li>Vertemos agua hasta cubrir y cocinamos a fuego lento desde el hervor.</li>
+                    <li>Tras la cocción, retiramos el chorizo y las verduras enteras.</li>
+                    <li>Los troceamos, los reincorporamos y cocinamos 5 minutos más.</li>
+                    <li>Servimos.</li>
+                </ol>
             </article>
-        </section>
+        </div>
     </main>
 
     <footer>

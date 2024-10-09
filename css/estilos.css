@@ -1,0 +1,234 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header {
+	width: 100%;
+	overflow: hidden;
+	background:#252932;
+	margin-bottom: 20px;
+	padding: 10px 20px; /* Añadimos un poco de padding */
+    display: flex; /* Usamos flexbox para alinear los elementos */
+    justify-content: space-between; /* Espacia los elementos (logo y nav) */
+    align-items: center;
+}
+
+.wrapper{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+    display: block;
+}
+
+header nav {
+	display: flex;
+	gap: 20px;
+}
+
+header nav a {
+	display: inline-block;
+	color:#fff;
+	text-decoration: none;
+	padding: 10px 20px;
+	line-height: normal;
+	font-size: 20px;
+	font-weight: bold;
+	transition: all 200ms ease;
+}
+
+header nav a:hover {
+	background:#ffbd54;
+	border-radius:50px;
+}
+
+.logo {
+    height: 100px;
+}
+
+main {
+    margin: 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.recetas-destacadas {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.receta-destacada h3 {
+    color: #ffbd54;
+    font-size: 24px;
+}
+
+.receta-destacada {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.receta-destacada .imagen-receta {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+	margin-right: 20px;
+}
+
+.receta-destacada ul, .receta-destacada ol {
+	margin-left: 20px;
+    padding-left: 20px;
+}
+
+.receta-destacada p {
+    font-weight: bold;
+}
+
+.imagen-receta{
+    height: 100px;
+    border-radius: 10px;
+}
+
+.form-receta {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.form-receta form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-receta label {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+.form-receta input[type="text"], 
+.form-receta input[type="number"], 
+.form-receta select, 
+.form-receta textarea {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: calc(100% - 22px);
+}
+
+.form-receta textarea {
+    resize: none;
+}
+
+.imagen-receta {
+    margin-top: 20px;
+}
+
+.btn-enviar {
+    background-color: #ffbd54;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 200ms ease;
+}
+
+.btn-enviar:hover {
+    background-color: #eaa33b;
+}
+
+.info-receta, .ingredientes-receta, .instrucciones-receta {
+    margin-bottom: 20px;
+}
+
+.recetas-recientes {
+    display: flex;
+}
+
+.indice {
+    width: 150px;
+    margin-right: 20px;
+	background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.indice h3 {
+    color: #ffbd54;
+}
+
+.indice ul {
+    list-style-type: none; /* Eliminamos los puntos de la lista */
+    padding: 0; /* Eliminamos el padding */
+}
+
+.indice ul li {
+    margin-bottom: 10px; /* Espacio entre los elementos del índice */
+}
+
+.indice ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 200ms ease;
+}
+
+.indice ul li a:hover {
+    color: #ffbd54; /* Color al pasar el ratón */
+}
+
+
+.faq {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.faq-item {
+    background-color: #f2f2f2;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.faq-question {
+    font-size: 18px;
+    color: #ffbd54;
+    cursor: pointer;
+    margin: 0;
+}
+
+.faq-answer {
+    margin-top: 10px;
+    color: #333;
+}
